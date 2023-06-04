@@ -3,7 +3,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1021px;
+  min-height: 100vh;
 }
 
 .u-section-1 .u-image-1 {
@@ -127,13 +127,6 @@
 }
 
 .u-section-1 .u-text-7 {
-  font-weight: 400;
-  font-size: 1.5rem;
-  width: 69px;
-  margin: 14px auto 60px;
-}
-
-.u-section-1 .u-text-8 {
   font-size: 0.875rem;
   font-family: "Architects Daughter";
   width: auto;
@@ -451,10 +444,6 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 100vh;
-  }
-
   .u-section-1 .u-image-1 {
     margin-top: 160px;
   }
@@ -525,7 +514,7 @@
   }
 
   .u-section-1 .u-text-3 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     width: auto;
     margin-top: 13px;
     margin-right: 214px;
@@ -538,7 +527,6 @@
     width: auto;
     margin-top: -19px;
     margin-left: 222px;
-    font-weight: normal;
   }
 
   .u-section-1 .u-text-5 {
@@ -560,23 +548,16 @@
   }
 
   .u-section-1 .u-text-7 {
-    font-size: 2.25rem;
-    width: 103px;
-    margin-top: 36px;
-    margin-bottom: 0;
-  }
-
-  .u-section-1 .u-text-8 {
     font-size: 0.75rem;
     text-transform: uppercase;
     line-height: 2.01;
-    margin-top: 58px;
+    margin-top: 88px;
     margin-bottom: 0;
   }
 
   .u-section-1 .u-countdown-1 {
-    margin-top: 23px;
-    margin-right: auto;
+    margin-top: 103px;
+    margin-right: 18px;
   }
 
   .u-section-1 .u-countdown-counter-1 {
@@ -621,6 +602,392 @@
 
   .u-section-1 .u-countdown-counter-6 {
     font-size: 3rem;
+  }
+} .u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 400px;
+}
+
+.u-section-2 .u-image-1 {
+  width: 320px;
+  height: 283px;
+  margin: 59px auto;
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-image-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+} .u-section-3 {
+  background-image: none;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 770px;
+}
+
+.u-section-3 .u-custom-html-1 {
+  margin-bottom: 60px;
+}
+
+.u-section-3 .u-line-1 {
+  position: absolute;
+  top: 32px;
+  left: auto;
+  height: 531px;
+  transform-origin: center top;
+  right: 167px;
+}
+
+.u-section-3 .u-image-1 {
+  width: 170px;
+  height: 181px;
+  margin: -206px -6px 60px auto;
+}
+
+.u-section-3 .u-text-1 {
+  font-size: 0.4375rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2.01;
+  font-family: "Architects Daughter";
+  width: auto;
+  font-weight: 700;
+  margin: 5px 219px 0 37px;
+}
+
+.u-section-3 .u-text-2 {
+  font-size: 0.4375rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2.01;
+  font-family: "Architects Daughter";
+  width: auto;
+  font-weight: 700;
+  margin: 0 219px 60px 37px;
+}
+
+.u-section-3 .u-image-2 {
+  width: 60px;
+  height: 64px;
+  margin: -28px 49px 0 auto;
+}
+
+.u-section-3 .u-text-3 {
+  font-size: 0.4375rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2.01;
+  font-family: "Architects Daughter";
+  width: auto;
+  font-weight: 700;
+  margin: 5px 37px 0 219px;
+}
+
+.u-section-3 .u-text-4 {
+  font-size: 0.4375rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2.01;
+  font-family: "Architects Daughter";
+  width: auto;
+  font-weight: 700;
+  margin: 0 37px 60px 219px;
+}
+
+.u-section-3 .u-image-3 {
+  width: 66px;
+  height: 70px;
+  margin: 6px auto 60px 55px;
+}
+
+.u-section-3 .u-text-5 {
+  font-size: 0.4375rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2.01;
+  font-family: "Architects Daughter";
+  width: auto;
+  font-weight: 700;
+  margin: 0 216px 0 40px;
+}
+
+.u-section-3 .u-text-6 {
+  font-size: 0.4375rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2.01;
+  font-family: "Architects Daughter";
+  width: auto;
+  font-weight: 700;
+  margin: 0 216px 60px 40px;
+}
+
+.u-section-3 .u-image-4 {
+  width: 69px;
+  height: 73px;
+  margin: 26px 45px 0 auto;
+}
+
+.u-section-3 .u-text-7 {
+  font-size: 0.4375rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2.01;
+  font-family: "Architects Daughter";
+  font-weight: 700;
+  width: auto;
+  margin: 9px 26px 0 216px;
+}
+
+.u-section-3 .u-text-8 {
+  font-size: 0.4375rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2.01;
+  font-family: "Architects Daughter";
+  width: auto;
+  font-weight: 700;
+  margin: 0 38px 0 219px;
+}
+
+.u-section-3 .u-image-5 {
+  width: 74px;
+  height: 73px;
+  margin: 34px auto 0 45px;
+}
+
+.u-section-3 .u-text-9 {
+  font-size: 0.4375rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2.01;
+  font-family: "Architects Daughter";
+  font-weight: 700;
+  width: auto;
+  margin: 0 209px 0 33px;
+}
+
+.u-section-3 .u-text-10 {
+  font-size: 0.4375rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2.01;
+  font-family: "Architects Daughter";
+  width: auto;
+  font-weight: 700;
+  margin: 0 221px 60px 36px;
+}
+
+.u-section-3 .u-shape-1 {
+  width: 5px;
+  height: 5px;
+  margin: -534px 165px 0 auto;
+}
+
+.u-section-3 .u-shape-2 {
+  width: 5px;
+  height: 5px;
+  margin: 91px 165px 0 auto;
+}
+
+.u-section-3 .u-shape-3 {
+  width: 5px;
+  height: 5px;
+  margin: 96px 165px 0 auto;
+}
+
+.u-section-3 .u-shape-4 {
+  width: 5px;
+  height: 5px;
+  margin: 122px 165px 0 auto;
+}
+
+.u-section-3 .u-shape-5 {
+  width: 5px;
+  height: 5px;
+  margin: 134px 165px 60px auto;
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-custom-html-1 {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .u-section-3 .u-line-1 {
+    height: 620px;
+  }
+
+  .u-section-3 .u-image-1 {
+    width: 56px;
+    height: 60px;
+    --animation-custom_in-translate_x: -300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 180deg;
+    --animation-custom_in-scale: 0.3;
+    animation-duration: 2250ms;
+    margin: 47px auto 0 60px;
+  }
+
+  .u-section-3 .u-text-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    margin-right: 216px;
+    margin-left: 40px;
+  }
+
+  .u-section-3 .u-text-2 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    margin-right: 216px;
+    margin-bottom: 0;
+    margin-left: 40px;
+  }
+
+  .u-section-3 .u-image-2 {
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    margin-top: -3px;
+  }
+
+  .u-section-3 .u-text-3 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    margin-top: 0;
+    margin-right: 38px;
+  }
+
+  .u-section-3 .u-text-4 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    margin-right: 38px;
+    margin-bottom: 0;
+  }
+
+  .u-section-3 .u-image-3 {
+    --animation-custom_in-translate_x: -300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    margin-top: 12px;
+    margin-bottom: 0;
+    margin-left: 50px;
+  }
+
+  .u-section-3 .u-text-5 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+
+  .u-section-3 .u-text-6 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    margin-bottom: 0;
+  }
+
+  .u-section-3 .u-image-4 {
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    animation-duration: 1000ms;
+  }
+
+  .u-section-3 .u-text-7 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+
+  .u-section-3 .u-text-8 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+
+  .u-section-3 .u-image-5 {
+    --animation-custom_in-translate_x: -200px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+
+  .u-section-3 .u-text-9 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    margin-right: 197px;
+    margin-left: 20px;
+  }
+
+  .u-section-3 .u-text-10 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    margin-right: 216px;
+    margin-bottom: 0;
+    margin-left: 40px;
+  }
+} .u-section-4 {
+  background-image: none;
+}
+
+.u-section-4 .u-sheet-1 {
+  min-height: 400px;
+}
+
+.u-section-4 .u-custom-html-1 {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 575px) {
+  .u-section-4 .u-custom-html-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
   }
 }.start-animation {
 animation-duration: 3s;
