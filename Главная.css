@@ -380,6 +380,11 @@
     margin-left: 488px;
   }
 }
+@media (min-width: 991px) {
+  .map,.opros,.details {
+    display: none;
+  }
+}
 
 @media (max-width: 991px) {
   .u-section-1 .u-image-1 {
